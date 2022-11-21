@@ -1395,7 +1395,7 @@ class Crawlers extends Provider {
       'Zoom\\.Mac',
       'ZoteroTranslationServer',
       'ZyBorg',
-      '[a-z0-9\\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)',
+      '[a-z0-9\\-_]*((?<!Google)bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)',
     ];
   }
 }
